@@ -17,4 +17,5 @@ public interface ImageHandler<V extends View> {
 
     @Nullable
     FrameLayout.LayoutParams getParams(@NonNull Context context);
+
 }
